@@ -177,4 +177,8 @@ Algorithm for Deletion
 4. Set LA[J] = LA (J+1)
 5. Set J=J+1
 6. Set N=N+1
-6. Stop
+7. Stop
+
+
+COnclusion
+Thus we have successfully completed implementation of a direct access file-Insertion and deletion of a record from a direct access file using C++
