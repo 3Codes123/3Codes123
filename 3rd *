@@ -50,3 +50,19 @@ int main()
 	cout << "Postfix : " << preToPost(pre_exp);
 	return 0;
 }
+
+
+
+             Algorithm
+
+We read our expression one symbol at a time. If the symbol is an operand, we create a one node tree & push a pointer to if into a stack. If the symbol is an operator,
+we pop pointer to two tree T2 & T, from the stakc & form a new tree whose root is the operator & whose left and right children point to T1 & T2 respectively. A pointer
+to this new tree is then pushed onto the stack
+    As a example. suppose the input is abc*+e*f*
+    1) the first three symbols are operand, so we create one node trees push pointers to them onto a stack
+    2)Next, 4* is read, so two pointers to tree are popped, a new tree is formed, and a pointer to it is [ushede onto the stack
+    3)Next, a + is read, so two pointer to tree are popped , a new tree is formed , and a pointer to it is pushed onto the stack
+    4)Next, e is read, a one node tree is created & a pointer to it is pushed on to the stack
+    5)Next, a =* is read, so two pointers to tree are popped, a net tree is formned & a pointer to it is pushed onto the stack
+    6)Continuing f is read , a one node tree is created & a pointer to it is pushed onto the stack
+    7)Finaly, a+ is read, two trees are mergfed, & a pointer to the final tree is pushed on the stack
