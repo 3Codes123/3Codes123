@@ -80,6 +80,28 @@ to this new tree is then pushed onto the stack
 	  
 	  End
 	  
+    2) Preorder
+          Start
+	  
+	  Node; inorder (node)   -----------------------------------------------------|---|
+	  if left node exists  ----Yes----> Call preorder() on the left sub tree   ----|   |
+	  Print the node value                                                            |
+	  if right node exists ----Yes----> Call preorder() to the right sub tree  --------|
+	  Return
+	  
+	  End
+	  
+    3)Postorder
+          Start
+	  
+	  Node; inorder (node)   -----------------------------------------------------|---|
+	  if left node exists  ----Yes----> Call postorder() on the left sub tree   ----|   |
+	  Print the node value                                                            |
+	  if right node exists ----Yes----> Call postorder() to the right sub tree  --------|
+	  Return
+	  
+	  End
+	  
  
 
                Conclusion
