@@ -179,6 +179,18 @@ Algorithm for Deletion
 6. Set N=N+1
 7. Stop
 
+Flowchart
+
+       Start
+       Call the Function ()
+       Declare the Variables
+       Set J=K
+ ----> 
+ |    While J>=K
+ |    Insertion Set LA = LA [J-1] J = J-1
+ |--> While J<N
+      Deletion Set LA = LA [J+1]  J=J+1  N=N+1
+      Stop
 
 COnclusion
 Thus we have successfully completed implementation of a direct access file-Insertion and deletion of a record from a direct access file using C++
