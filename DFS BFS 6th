@@ -75,5 +75,27 @@ ALgorithm
 2) Mark the current node as visited and print the node
 3) Traverse all the adjacent and unmarked nodes and call the recursive function with index of adjacent node
 
+FLowchart
+
+                                                                         Start
+                                                                         Initialize all required variables
+                                                                         Input variables and edges
+                                                   |-------------------------------->                      
+         Create func to insert/remove push&pop     |                     Switch Case
+         Create Func use pointer & create----------|--------------------> Ch==1  ------->  Create    ---------------|
+         Display Func------------------------------|--------------------> Ch==2  ------->  Display list          ---|
+         DFS Func push node in stack               |                      Ch==3  ------->  Depth 1st search (R)  ---|
+              <---|                                |                      Ch==4  ------->  Depth of search  (NR) ---|
+         ==NULL---|                                |                      Ch==5  ------->  Breadth 1st search    ---|
+          Peer the node                            |                                                                |
+          BFS Func push node in Queue              |                                                                END
+               <---|                               |          
+          ==NULL---|                               |  
+          remove node------------------------------|      
+                
+                
+        Create Rn to insert remote push & pop
+        Create function are pointer & operate
+
 Conclusion
 Thus we have successfully completed represent a given graph using adjacent matrix list to perform DFS and using adjacency list to perform BFS using C++
