@@ -66,3 +66,6 @@ to this new tree is then pushed onto the stack
     5)Next, a =* is read, so two pointers to tree are popped, a net tree is formned & a pointer to it is pushed onto the stack
     6)Continuing f is read , a one node tree is created & a pointer to it is pushed onto the stack
     7)Finaly, a+ is read, two trees are mergfed, & a pointer to the final tree is pushed on the stack
+
+               Conclusion
+    Thus we havew successfully completed expression tree from the given prefix using C++
